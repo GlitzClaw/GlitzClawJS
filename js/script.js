@@ -14,5 +14,14 @@ function LocalStorage() {
   //To do: More advanced LocalStorage script...
     localStorage.setItem("Storage", "Storage");
     document.getElementById("result").innerHTML = localStorage.getItem("Storage");
-} 
+}
+
+function PromptLocalStorage() {
+  // MAY NOT WORK: I need to test this later on, when I have time.
+prompt = localStorage.getItem("prompt");
+    if (prompt == null || Localstorage == "null"){
+      localstorage = prompt("What would you like to save in LocalStorage?");
+      localStorage.setItem("prompt", localstorage);
+    } 
+  }
 }
