@@ -2,6 +2,8 @@
   <head>
     <script src="js/script.js"> 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+                <link rel="stylesheet" type="text/css" href="css/bootstrap-main.css">
+
     <title> GlitzClawJS </title>
       </head>
         <body>
@@ -9,5 +11,8 @@
           <input id="LocalStorage" type="button" value="LocalStorage" onclick="LocalStorage();" />
           <input id="PromptLocalStorage" type="button" value="PromptLocalStorage" onclick="PromptLocalStorage();" />
           <input id="Greeting" type="button" value="Greeting" onclick="Greeting();" />
+          
+          document.getElementById("demo").innerHTML = 
+"Welcome To " + window.location.hostname;
     </body>
 </html>
