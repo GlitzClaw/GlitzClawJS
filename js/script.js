@@ -3,9 +3,9 @@ function Greeting() {
   //To do: Change Cancel to "no" 
 var r = confirm("Welcome! Do you like the framework?");
 if (r == true) {
-    x = "Good!";
+    x = alert ("Good!");
 } else {
-    x = "Sorry!";
+    x = alert ("Sorry!");
 } 
 }
 
