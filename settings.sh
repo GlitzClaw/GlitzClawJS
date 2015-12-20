@@ -1,6 +1,6 @@
-#!bin/bash
-echo "menu outline by Dennis Williamson" 
-echo "http://askubuntu.com/questions/1705/how-can-i-create-a-select-menu-in-a-shell-script"
+!bin/bash
+# menu outline by Dennis Williamson" 
+# http://askubuntu.com/questions/1705/how-can-i-create-a-select-menu-in-a-shell-script
 PS3='Please enter your choice: '
 options=("Remove CSS" "Remove index.html" "Remove JS" "Quit")
 select opt in "${options[@]}"
